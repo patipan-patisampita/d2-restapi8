@@ -2,6 +2,6 @@ import { Router } from "express";
 import PostController from "../controller/PostController";
 
 const router = Router();
-router.get("/post",PostController.getPost);
+router.post("/post",PostController.postPost)
 
 export default router;
